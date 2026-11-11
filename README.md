@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README_zh.md)
 
+![LEMO](assets/lemo.jpg)
+
 LEMO integrates bimanual teleoperation, camera acquisition, data recording, and policy inference connectivity into a ROS 2 Humble workspace. It brings together data collection, training, and inference workflows for embodied AI development.
 
 In this document, **LEMO platform** refers to the RK3588 device running teleoperation, data collection, and the policy client. **Compute platform** refers to the GPU server running the model inference service.
