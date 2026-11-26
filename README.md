@@ -17,6 +17,10 @@ In this document, **LEMO platform** refers to the RK3588 device running teleoper
 - STEP models and PDF drawings for the complete head camera mast and its upper section. [LEMO CAD](https://github.com/userguide-galaxea/CAD_files/tree/main/LEMO)
 - Standard and rib-reinforced G1Z gripper finger STEP models with previews. [G1Z Gripper Fingers for 3D Printing](https://github.com/userguide-galaxea/CAD_files/tree/main/G1Z)
 
+| Standard | Rib-reinforced |
+| :---: | :---: |
+| <a href="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print.png"><img src="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print.png" alt="Standard G1Z gripper finger" width="220"></a> | <a href="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print_reinforced.png"><img src="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print_reinforced.png" alt="Rib-reinforced G1Z gripper finger" width="220"></a> |
+
 ## Repository Layout
 
 ```text
