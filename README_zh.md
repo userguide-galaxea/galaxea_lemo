@@ -15,6 +15,7 @@ LEMO 将双臂遥操作、相机采集、数据录制和策略推理接入整合
   <a href="https://raw.githubusercontent.com/userguide-galaxea/robot_descriptions/galaxea/main/lemo_description/previews/lemo.png"><img src="https://raw.githubusercontent.com/userguide-galaxea/robot_descriptions/galaxea/main/lemo_description/previews/lemo.png" alt="LEMO 双臂整机 URDF 外观" width="420"></a>
 
 - 完整头部相机立杆及立杆上端的 STEP 模型和 PDF 图纸。[LEMO CAD](https://github.com/userguide-galaxea/CAD_files/tree/main/LEMO)
+- G1Z 夹指的标准版和加强筋版 STEP 模型，附外观预览。[G1Z 夹指 3D 打印件](https://github.com/userguide-galaxea/CAD_files/tree/main/G1Z)
 
 ## 目录介绍
 ```bash

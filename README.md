@@ -15,6 +15,7 @@ In this document, **LEMO platform** refers to the RK3588 device running teleoper
   <a href="https://raw.githubusercontent.com/userguide-galaxea/robot_descriptions/galaxea/main/lemo_description/previews/lemo.png"><img src="https://raw.githubusercontent.com/userguide-galaxea/robot_descriptions/galaxea/main/lemo_description/previews/lemo.png" alt="LEMO dual-arm URDF exterior" width="420"></a>
 
 - STEP models and PDF drawings for the complete head camera mast and its upper section. [LEMO CAD](https://github.com/userguide-galaxea/CAD_files/tree/main/LEMO)
+- Standard and rib-reinforced G1Z gripper finger STEP models with previews. [G1Z Gripper Fingers for 3D Printing](https://github.com/userguide-galaxea/CAD_files/tree/main/G1Z)
 
 ## Repository Layout
 
