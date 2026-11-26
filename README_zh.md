@@ -8,6 +8,11 @@ LEMO 将双臂遥操作、相机采集、数据录制和策略推理接入整合
 
 本文将运行遥操作、数据采集及 Policy 客户端的 RK3588 设备称为“LEMO平台”，将运行模型推理服务的 GPU 服务器称为“算力平台”。
 
+## URDF 与 CAD
+
+- 双臂 URDF 模型、相机坐标系和 RViz 预览。[LEMO URDF](https://github.com/userguide-galaxea/robot_descriptions/tree/galaxea/main/lemo_description)
+- 完整头部相机立杆及立杆上端的 STEP 模型和 PDF 图纸。[LEMO CAD](https://github.com/userguide-galaxea/CAD_files/tree/main/LEMO)
+
 ## 目录介绍
 ```bash
 ~/lemo/
