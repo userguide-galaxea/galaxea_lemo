@@ -13,6 +13,32 @@
 </div>
 
 
+## Table of Contents
+
+- [📢 News](#-news)
+- [📌 G0.5 Overview](#-g05-overview)
+- [📌 Legacy G0 / G0Plus Overview](#-legacy-g0--g0plus-overview)
+- [🚀 Galaxea Open-World Dataset](#-galaxea-open-world-dataset)
+  - [Key features](#key-features)
+- [⚙️ G0.5 Getting Started](#️-g05-getting-started)
+  - [GPU Requirements](#gpu-requirements)
+  - [Installation](#installation)
+  - [Model Checkpoints](#model-checkpoints)
+  - [Inference on Real Robots](#inference-on-real-robots)
+  - [Training on LIBERO](#training-on-libero)
+  - [Evaluation on LIBERO](#evaluation-on-libero)
+  - [Evaluation on RoboTwin](#evaluation-on-robotwin)
+  - [🔥 Fine-Tuning Base Models on Galaxea Robots](#-fine-tuning-base-models-on-galaxea-robots)
+  - [Minimal Validation](#minimal-validation)
+- [Acknowledgements](#acknowledgements)
+- [📜 Citation](#-citation)
+- [License](#license)
+  - [What you can do under the G0.5 Community License](#what-you-can-do-under-the-g05-community-license)
+  - [Notices and attribution](#notices-and-attribution)
+  - [Third-party licenses](#third-party-licenses)
+  - [Legal and safety compliance](#legal-and-safety-compliance)
+- [Star History](#star-history)
+
 ## 📢 News
 
 [Aug 12, 2026] Our G0.5 paper, [**G0.5: One Autoregressive Stream for Robot Reasoning and Action**](https://arxiv.org/abs/2608.11739), is now available on arXiv.

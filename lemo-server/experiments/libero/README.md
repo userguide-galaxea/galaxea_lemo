@@ -2,6 +2,16 @@
 
 This directory contains the client-side code for LIBERO simulation evaluation and the local LIBERO path configuration. The one-command evaluation entry point is `scripts/run/eval_libero.sh`, which lives outside this directory.
 
+## Table of Contents
+
+- [Contents](#contents)
+- [Prerequisites](#prerequisites)
+- [Checkpoint Layout](#checkpoint-layout)
+- [One-Command Batch Evaluation](#one-command-batch-evaluation)
+- [Output Layout](#output-layout)
+- [Run A Single Suite](#run-a-single-suite)
+- [Training](#training)
+
 ## Contents
 
 | File | Purpose |

@@ -7,6 +7,28 @@ It is a pure client node: it collects raw observations via ROS2, sends them to t
 
 > Similar to `experiments/so100` and `experiments/droid` — all are deployment components that connect to `serve_policy.py`, targeting different robots.
 
+## Table of Contents
+
+- [Architecture](#architecture)
+- [Environment Setup](#environment-setup)
+  - [1. Install G05 Environment](#1-install-g05-environment)
+  - [2. ROS2](#2-ros2)
+- [Client-Server Protocol](#client-server-protocol)
+  - [Client Sends (raw obs)](#client-sends-raw-obs)
+  - [Client Receives (raw action)](#client-receives-raw-action)
+  - [Key Principles](#key-principles)
+- [Data Flow](#data-flow)
+- [Directory Structure](#directory-structure)
+- [Quick Start](#quick-start)
+  - [1. Configuration](#1-configuration)
+  - [2. Start the Inference Server (GPU side)](#2-start-the-inference-server-gpu-side)
+  - [3. Start the Client (robot side)](#3-start-the-client-robot-side)
+  - [4. Run Tests (no ROS2 or server required)](#4-run-tests-no-ros2-or-server-required)
+- [Dependencies](#dependencies)
+  - [Runtime (7 packages, all included in G05 venv)](#runtime-7-packages-all-included-in-g05-venv)
+  - [Optional](#optional)
+  - [Not Required](#not-required)
+
 ## Architecture
 
 ```

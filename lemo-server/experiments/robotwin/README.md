@@ -2,6 +2,27 @@
 
 This directory contains the evaluation scripts for running GalaxeaVLA on the [RoboTwin](https://github.com/RoboTwin-Platform/RoboTwin) simulation benchmark. It supports single-task evaluation and multi-task scheduling across multiple GPUs.
 
+## Table of Contents
+
+- [Contents](#contents)
+- [Prerequisites](#prerequisites)
+  - [1. Clone RoboTwin](#1-clone-robotwin)
+  - [2. Download Assets](#2-download-assets)
+  - [3. Create the RoboTwin Virtual Environment](#3-create-the-robotwin-virtual-environment)
+  - [4. Generate cuRobo Config Files](#4-generate-curobo-config-files)
+  - [5. Verify Rendering](#5-verify-rendering)
+- [Checkpoint Layout](#checkpoint-layout)
+- [Usage](#usage)
+  - [Full Benchmark (All Tasks)](#full-benchmark-all-tasks)
+  - [Single Task Evaluation](#single-task-evaluation)
+- [Parameters](#parameters)
+  - [Required](#required)
+  - [Common](#common)
+  - [Inference](#inference)
+- [Output Layout](#output-layout)
+- [Architecture](#architecture)
+- [Training](#training)
+
 ## Contents
 
 | File | Purpose |

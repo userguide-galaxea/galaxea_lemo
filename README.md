@@ -8,6 +8,29 @@ LEMO integrates bimanual teleoperation, camera acquisition, data recording, and 
 
 In this document, **LEMO platform** refers to the RK3588 device running teleoperation, data collection, and the policy client. **Compute platform** refers to the GPU server running the model inference service.
 
+## Table of Contents
+
+- [URDF and CAD](#urdf-and-cad)
+- [Repository Layout](#repository-layout)
+- [Features](#features)
+- [System Architecture](#system-architecture)
+- [Requirements](#requirements)
+  - [LEMO Platform](#lemo-platform)
+  - [Compute Platform](#compute-platform)
+- [Deployment and Configuration](#deployment-and-configuration)
+  - [1. Deploy the Workspace](#1-deploy-the-workspace)
+  - [2. Configure the Hardware](#2-configure-the-hardware)
+  - [3. Pre-launch Checks](#3-pre-launch-checks)
+- [Teleoperation and Data Collection](#teleoperation-and-data-collection)
+- [Web Dashboard and Data Management](#web-dashboard-and-data-management)
+- [Inference Deployment](#inference-deployment)
+  - [1. Server: Deploy the Inference Service](#1-server-deploy-the-inference-service)
+  - [2. Policy Client: Configure the LEMO Platform](#2-policy-client-configure-the-lemo-platform)
+- [Run Modes and Episode Labels](#run-modes-and-episode-labels)
+- [Log Management](#log-management)
+- [Checking and Stopping the System](#checking-and-stopping-the-system)
+- [Troubleshooting](#troubleshooting)
+
 ## URDF and CAD
 
 - Dual-arm URDF, camera frames, and RViz previews. [LEMO URDF](https://github.com/userguide-galaxea/robot_descriptions/tree/galaxea/main/lemo_description)
