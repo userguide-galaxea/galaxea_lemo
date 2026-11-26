@@ -11,6 +11,9 @@ In this document, **LEMO platform** refers to the RK3588 device running teleoper
 ## URDF and CAD
 
 - Dual-arm URDF, camera frames, and RViz previews. [LEMO URDF](https://github.com/userguide-galaxea/robot_descriptions/tree/galaxea/main/lemo_description)
+
+  <a href="https://raw.githubusercontent.com/userguide-galaxea/robot_descriptions/galaxea/main/lemo_description/previews/lemo.png"><img src="https://raw.githubusercontent.com/userguide-galaxea/robot_descriptions/galaxea/main/lemo_description/previews/lemo.png" alt="LEMO dual-arm URDF exterior" width="420"></a>
+
 - STEP models and PDF drawings for the complete head camera mast and its upper section. [LEMO CAD](https://github.com/userguide-galaxea/CAD_files/tree/main/LEMO)
 
 ## Repository Layout
