@@ -11,6 +11,7 @@ In this document, **LEMO platform** refers to the RK3588 device running teleoper
 ## Table of Contents
 
 - [URDF and CAD](#urdf-and-cad)
+- [Runtime Downloads](#runtime-downloads)
 - [Repository Layout](#repository-layout)
 - [Features](#features)
 - [System Architecture](#system-architecture)
@@ -44,6 +45,10 @@ In this document, **LEMO platform** refers to the RK3588 device running teleoper
 | :---: | :---: |
 | <a href="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print.png"><img src="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print.png" alt="Standard G1Z gripper finger" width="220"></a> | <a href="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print_reinforced.png"><img src="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print_reinforced.png" alt="Rib-reinforced G1Z gripper finger" width="220"></a> |
 
+## Runtime Downloads
+
+Choose the `lemo_linux` version for your device in [GitHub Releases](https://github.com/userguide-galaxea/galaxea_lemo/releases). In that release's **Assets**, download `lemo_<version>.tar.gz` and `lemo_<version>.tar.gz.sha256`.
+
 ## Repository Layout
 
 ```text
@@ -51,11 +56,10 @@ In this document, **LEMO platform** refers to the RK3588 device running teleoper
 ├── lemo-server/            # Inference server deployed on the compute platform
 ├── README.md              # English documentation
 ├── README_zh.md            # Chinese documentation
-├── ethernet_setup.sh      # Ethernet connection setup utility
-└── lemo_1.x.x.x            # LEMO runtime package deployed on the LEMO platform
+└── ethernet_setup.sh      # Ethernet connection setup utility
 ```
 
-The examples below assume that `lemo_1.x.x.x` is placed in the home directory (`~/`) on the LEMO platform.
+The examples below assume you extract the downloaded runtime package into the home directory (`~/`) on the LEMO platform.
 
 ## Features
 
@@ -115,13 +119,11 @@ The deployment steps below use a precompiled runtime package and do not require 
 
 ### 1. Deploy the Workspace
 
-Extract the runtime package first:
+Copy the archive and checksum file from [Runtime Downloads](#runtime-downloads) to your home directory. Replace `1.x.x.x` with the version you downloaded, then verify and extract the archive.
 
 ```bash
-cd ~/
-# Assume lemo_1.x.x.x.tar.gz is in the home directory.
-tar -zxvf lemo_1.x.x.x.tar.gz
-# Replace the package name with the actual version.
+cd ~
+sha256sum -c lemo_1.x.x.x.tar.gz.sha256 && tar -xzf lemo_1.x.x.x.tar.gz
 ```
 
 Configure the environment:

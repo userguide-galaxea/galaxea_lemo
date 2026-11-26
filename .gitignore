@@ -1,1 +1,4 @@
 .DS_Store
+
+/lemo_[0-9]*.tar.gz
+/lemo_[0-9]*.tar.gz.sha256

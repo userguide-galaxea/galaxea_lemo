@@ -11,6 +11,7 @@ LEMO 将双臂遥操作、相机采集、数据录制和策略推理接入整合
 ## 目录
 
 - [URDF 与 CAD](#urdf-与-cad)
+- [运行包下载](#运行包下载)
 - [目录介绍](#目录介绍)
 - [主要功能](#主要功能)
 - [系统架构](#系统架构)
@@ -44,16 +45,19 @@ LEMO 将双臂遥操作、相机采集、数据录制和策略推理接入整合
 | :---: | :---: |
 | <a href="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print.png"><img src="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print.png" alt="标准版 G1Z 夹指" width="220"></a> | <a href="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print_reinforced.png"><img src="https://raw.githubusercontent.com/userguide-galaxea/CAD_files/main/G1Z/previews/g1z_gripper_finger_3d_print_reinforced.png" alt="加强筋版 G1Z 夹指" width="220"></a> |
 
+## 运行包下载
+
+在 [GitHub Releases](https://github.com/userguide-galaxea/galaxea_lemo/releases) 选择设备所需的 `lemo_linux` 版本，从该版本的 **Assets** 下载 `lemo_<版本号>.tar.gz` 和 `lemo_<版本号>.tar.gz.sha256`。
+
 ## 目录介绍
 ```bash
 ~/lemo/
 ├── lemo-server/            # 采、训、推流程中部署推理的server端，位于算力平台中
 ├── README.md               # 英文说明
 ├── README_zh.md            # 中文说明
-├── ethernet_setup.sh       # 配置以太网网络连接的快捷脚本
-└── lemo_1.x.x.x            # lemo软件包，项目主要实现代码，位于LEMO平台中
+└── ethernet_setup.sh       # 配置以太网网络连接的快捷脚本
 ```
-后文的举例，将会假设将lemo_1.x.x.x目录放置到LEMO平台的~/目录下。
+下面的部署示例假设在 LEMO 平台的主目录（`~/`）解压运行包。
 
 ## 主要功能
 
@@ -113,12 +117,12 @@ camera_publisher → 相机图像
 
 
 ### 1. 部署工作空间
-首先解压软件压缩包
+
+将[运行包和校验文件](#运行包下载)复制到 LEMO 平台的主目录。将 `1.x.x.x` 换成实际下载的版本号，校验通过后解压。
+
 ```bash
-cd ~/
-# 假设lemo_1.x.x.x.tar.gz位于~/
-tar -zxvf lemo_1.x.x.x.tar.gz
-# 输入对应的版本号包名
+cd ~
+sha256sum -c lemo_1.x.x.x.tar.gz.sha256 && tar -xzf lemo_1.x.x.x.tar.gz
 ```
 环境配置
 ```bash
